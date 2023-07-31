@@ -1,0 +1,10 @@
+<h1>Bienvenido Al Listado De DBZ</h1>
+
+
+    <app-dbz-list (onDelete)="onDelete($event)" [characterList]="charaters"></app-dbz-list>
+
+
+
+<hr>
+
+<app-dbz-form-character (onNewCharater)="onAddCharater($event)"> </app-dbz-form-character>
